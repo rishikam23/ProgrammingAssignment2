@@ -6,8 +6,8 @@
 ## This function will create a special matrix object that can store both the matrix and its inverse. It uses closures to store data in its environment. It has four sub-functions:-
 ## 1.set:Sets the value of the matrix.
 ## 2.get:Retrieves the value of the matrix.
-## 3.setInverse:Caches the inverse of the matrix.
-## 4.getInverse:Retrieves the cached inverse of the matrix if it exists.
+## 3.setInv:Caches the inverse of the matrix.
+## 4.getInv:Retrieves the cached inverse of the matrix if it exists.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv=NULL
